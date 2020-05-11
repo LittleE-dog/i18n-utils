@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <div v-load="flag">
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <p>附件：<input type="file" name="myfile" style=""></p>
+        <p>
+            <input type="submit" @click="loading">
+        </p>
+    </form>
+</div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                flag: false
+            },
+            methon:{
+                loading(){
+                    this.flag = true
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

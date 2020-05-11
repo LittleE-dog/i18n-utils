@@ -1,0 +1,21 @@
+{
+  "name": "i18n-utils",
+  "version": "0.1.0",
+  "description": "upload demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iwang",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.7.0",
+    "body-parser": "^1.15.2",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.14.0",
+    "multer": "^1.4.2",
+    "multer-aliyun-oss": "^1.1.0",
+    "vue": "^2.6.11",
+    "xlsx": "^0.15.4"
+  }
+}
